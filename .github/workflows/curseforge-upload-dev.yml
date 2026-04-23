@@ -6,8 +6,12 @@ on:
       - dev
 
 jobs:
-  build-release:
+  build-release-dev:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      discussions: write
     
     steps:
       - name: Checkout repository
