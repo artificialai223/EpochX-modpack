@@ -20,6 +20,7 @@
             "id": {
                 "curseforge": "1091339"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -57,6 +58,7 @@
             "id": {
                 "curseforge": "633823"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -94,6 +96,7 @@
             "id": {
                 "curseforge": "248787"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -133,6 +136,7 @@
             "id": {
                 "curseforge": "60028"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -170,6 +174,7 @@
             "id": {
                 "curseforge": "419699"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -212,6 +217,7 @@
             "id": {
                 "curseforge": "280510"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -252,6 +258,7 @@
             "id": {
                 "curseforge": "551894"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -293,6 +300,7 @@
             "id": {
                 "curseforge": "401648"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -336,6 +344,7 @@
             "id": {
                 "curseforge": "220318"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -376,6 +385,7 @@
             "id": {
                 "curseforge": "228525"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -413,6 +423,7 @@
             "id": {
                 "curseforge": "485681"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -451,6 +462,7 @@
             "id": {
                 "curseforge": "974992"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -489,6 +501,7 @@
             "id": {
                 "curseforge": "348521"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -527,6 +540,7 @@
             "id": {
                 "curseforge": "256717"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -564,6 +578,7 @@
             "id": {
                 "curseforge": "342584"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -605,6 +620,7 @@
             "id": {
                 "curseforge": "385587"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -650,6 +666,7 @@
             "id": {
                 "curseforge": "457570"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -687,6 +704,7 @@
             "id": {
                 "curseforge": "328085"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -727,6 +745,7 @@
             "id": {
                 "curseforge": "676721"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
@@ -768,6 +787,7 @@
             "id": {
                 "curseforge": "1217518"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -808,6 +828,7 @@
             "id": {
                 "curseforge": "646668"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -848,6 +869,7 @@
             "id": {
                 "curseforge": "439890"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -887,6 +909,7 @@
             "id": {
                 "curseforge": "509285"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -924,6 +947,7 @@
             "id": {
                 "curseforge": "1505794"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -961,6 +985,7 @@
             "id": {
                 "curseforge": "935929"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1000,6 +1025,7 @@
             "id": {
                 "curseforge": "659674"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1040,6 +1066,7 @@
             "id": {
                 "curseforge": "466792"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1077,6 +1104,7 @@
             "id": {
                 "curseforge": "905040"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1117,6 +1145,7 @@
             "id": {
                 "curseforge": "820977"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1156,6 +1185,7 @@
             "id": {
                 "curseforge": "947914"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1198,6 +1228,7 @@
             "id": {
                 "curseforge": "968398"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1237,6 +1268,7 @@
             "id": {
                 "curseforge": "1351997"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1276,6 +1308,7 @@
             "id": {
                 "curseforge": "1216624"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1303,6 +1336,44 @@
             ]
         },
         {
+            "pakku_id": "54XVjl0lgcmK5yiG",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-enchantment-industry"
+            },
+            "name": {
+                "curseforge": "Create: Enchantment Industry"
+            },
+            "id": {
+                "curseforge": "688768"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create-enchantment-industry-2.3.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7656/384/create-enchantment-industry-2.3.0.jar",
+                    "id": "7656384",
+                    "parent_id": "688768",
+                    "hashes": {
+                        "sha1": "d9cef051c5318d27c634184bfb1ef35550b96789",
+                        "md5": "7437b9e6ec9af52af0c49b276a4c6c3d"
+                    },
+                    "required_dependencies": [
+                        "1216624"
+                    ],
+                    "size": 683005,
+                    "date_published": "2026-02-21T02:51:30.077Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fkW4QeyZP4WLGb6s",
             "type": "MOD",
             "side": "BOTH",
@@ -1315,6 +1386,7 @@
             "id": {
                 "curseforge": "1260145"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1355,6 +1427,7 @@
             "id": {
                 "curseforge": "889722"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1394,6 +1467,7 @@
             "id": {
                 "curseforge": "1381890"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1433,6 +1507,7 @@
             "id": {
                 "curseforge": "978125"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1473,6 +1548,7 @@
             "id": {
                 "curseforge": "856996"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1512,6 +1588,7 @@
             "id": {
                 "curseforge": "975120"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1550,6 +1627,7 @@
             "id": {
                 "curseforge": "326652"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1592,6 +1670,7 @@
             "id": {
                 "curseforge": "1390924"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1635,6 +1714,7 @@
             "id": {
                 "curseforge": "511770"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1675,6 +1755,7 @@
             "id": {
                 "curseforge": "448233"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
@@ -1713,6 +1794,7 @@
             "id": {
                 "curseforge": "915902"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1761,6 +1843,7 @@
             "id": {
                 "curseforge": "1326436"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1804,6 +1887,7 @@
             "id": {
                 "curseforge": "367706"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1844,6 +1928,7 @@
             "id": {
                 "curseforge": "398521"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1881,6 +1966,7 @@
             "id": {
                 "curseforge": "495693"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1924,6 +2010,7 @@
             "id": {
                 "curseforge": "475117"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -1963,6 +2050,7 @@
             "id": {
                 "curseforge": "429235"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2000,6 +2088,7 @@
             "id": {
                 "curseforge": "453763"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
@@ -2046,6 +2135,7 @@
             "id": {
                 "curseforge": "979103"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2094,6 +2184,7 @@
             "id": {
                 "curseforge": "1384010"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2144,6 +2235,7 @@
             "id": {
                 "curseforge": "955399"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2184,6 +2276,7 @@
             "id": {
                 "curseforge": "455508"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2223,6 +2316,7 @@
             "id": {
                 "curseforge": "583345"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2262,6 +2356,7 @@
             "id": {
                 "curseforge": "324717"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2299,6 +2394,7 @@
             "id": {
                 "curseforge": "238222"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2337,6 +2433,7 @@
             "id": {
                 "curseforge": "410295"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2375,6 +2472,7 @@
             "id": {
                 "curseforge": "351264"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2418,6 +2516,7 @@
             "id": {
                 "curseforge": "360438"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2455,6 +2554,7 @@
             "id": {
                 "curseforge": "361276"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2495,6 +2595,7 @@
             "id": {
                 "curseforge": "892382"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2550,6 +2651,7 @@
             "id": {
                 "curseforge": "656977"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2602,6 +2704,7 @@
             "id": {
                 "curseforge": "938643"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2629,6 +2732,42 @@
             ]
         },
         {
+            "pakku_id": "msHYl4rp2bX6CSod",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "modernfix"
+            },
+            "name": {
+                "curseforge": "ModernFix"
+            },
+            "id": {
+                "curseforge": "790626"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modernfix-neoforge-5.27.2+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7917/721/modernfix-neoforge-5.27.2+mc1.21.1.jar",
+                    "id": "7917721",
+                    "parent_id": "790626",
+                    "hashes": {
+                        "sha1": "6a164013d692c209157d06e178bc43deb3e1d946",
+                        "md5": "74610b0b92b81641c61444a4c1a79ed4"
+                    },
+                    "required_dependencies": [],
+                    "size": 562003,
+                    "date_published": "2026-04-12T20:40:29.417Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "HAK09Kvd5xoM2nF2",
             "type": "MOD",
             "side": "BOTH",
@@ -2641,6 +2780,7 @@
             "id": {
                 "curseforge": "1337167"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2679,6 +2819,7 @@
             "id": {
                 "curseforge": "499980"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2716,6 +2857,7 @@
             "id": {
                 "curseforge": "1494953"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2753,6 +2895,7 @@
             "id": {
                 "curseforge": "60089"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2791,6 +2934,7 @@
             "id": {
                 "curseforge": "586157"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2829,6 +2973,7 @@
             "id": {
                 "curseforge": "634062"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2867,6 +3012,7 @@
             "id": {
                 "curseforge": "433760"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
@@ -2905,6 +3051,7 @@
             "id": {
                 "curseforge": "636608"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2943,6 +3090,7 @@
             "id": {
                 "curseforge": "1190669"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -2984,6 +3132,7 @@
             "id": {
                 "curseforge": "852662"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3023,6 +3172,7 @@
             "id": {
                 "curseforge": "689467"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3073,6 +3223,7 @@
             "id": {
                 "curseforge": "351441"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3112,6 +3263,7 @@
             "id": {
                 "curseforge": "283644"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3149,6 +3301,7 @@
             "id": {
                 "curseforge": "467028"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3187,6 +3340,7 @@
             "id": {
                 "curseforge": "388800"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3225,6 +3379,7 @@
             "id": {
                 "curseforge": "1023259"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3262,6 +3417,7 @@
             "id": {
                 "curseforge": "495476"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3299,6 +3455,7 @@
             "id": {
                 "curseforge": "1279407"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3335,6 +3492,7 @@
             "id": {
                 "curseforge": "1312371"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3372,6 +3530,7 @@
             "id": {
                 "curseforge": "291874"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3411,6 +3570,7 @@
             "id": {
                 "curseforge": "582327"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3451,6 +3611,7 @@
             "id": {
                 "curseforge": "1493614"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
@@ -3489,6 +3650,7 @@
             "id": {
                 "curseforge": "394468"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3526,6 +3688,7 @@
             "id": {
                 "curseforge": "551736"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3569,6 +3732,7 @@
             "id": {
                 "curseforge": "422301"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3608,6 +3772,7 @@
             "id": {
                 "curseforge": "618298"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3645,6 +3810,7 @@
             "id": {
                 "curseforge": "535489"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3683,6 +3849,7 @@
             "id": {
                 "curseforge": "412082"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3722,6 +3889,7 @@
             "id": {
                 "curseforge": "940057"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3759,6 +3927,7 @@
             "id": {
                 "curseforge": "513688"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3803,6 +3972,7 @@
             "id": {
                 "curseforge": "260262"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3840,6 +4010,7 @@
             "id": {
                 "curseforge": "246391"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3879,6 +4050,7 @@
             "id": {
                 "curseforge": "225608"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3918,6 +4090,7 @@
             "id": {
                 "curseforge": "1380388"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3958,6 +4131,7 @@
             "id": {
                 "curseforge": "1295594"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -3998,6 +4172,7 @@
             "id": {
                 "curseforge": "263420"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -4036,6 +4211,7 @@
             "id": {
                 "curseforge": "317780"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -4077,6 +4253,7 @@
             "id": {
                 "curseforge": "1518714"
             },
+            "update_strategy": "NONE",
             "redistributable": false,
             "files": [
                 {
@@ -4120,6 +4297,7 @@
             "id": {
                 "curseforge": "844662"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -4160,6 +4338,7 @@
             "id": {
                 "curseforge": "568563"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -4201,6 +4380,7 @@
             "id": {
                 "curseforge": "1411815"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",
@@ -4254,6 +4434,7 @@
             "id": {
                 "curseforge": "361579"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "curseforge",

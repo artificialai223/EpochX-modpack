@@ -10,317 +10,326 @@
         "shaderpacks"
     ],
     "projects": {
+        "alltheleaks": {
+            "update_strategy": "NONE"
+        },
         "almostunified": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "appleskin": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "aquaculture": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "architectury-api": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "attributefix": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "better-compatibility-checker": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "betterf3": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "biomes-o-plenty": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "bookshelf": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "chunky-pregenerator-forge": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "chunky-border-forge": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "cloth-config": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "clumps": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "collective": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "complementary-unbound": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "configured": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "create": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-aeronautics": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-better-fps": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "create-big-cannons": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "createaddition": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-deco": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-delivery-area": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-railways-navigator": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "slice-and-dice": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-stuff-additions": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "bellsandwhistles": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-central-kitchen": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-connected": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "copycats": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-o-plenty": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
+        },
+        "create-dragons-plus": {
+            "update_strategy": "NONE"
         },
         "create-escalated": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "numismatics": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-threaded-trains": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "create-ultimate-factory": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "cristel-lib": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "cubes-without-borders": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "cupboard": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "drippy-early-loading-module": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "drippy-loading-screen": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "entityculling": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "euphoria-patches": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "fancy-toasts": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "fancymenu": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "farmers-delight": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "farsight": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "fastsuite": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "ferritecore": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "fresh-animations": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "fresh-textures": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "fresh-textures-animation": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "glitchcore": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "irisshaders": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "jade-addons": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "jade": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "jei": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "konkrete": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "kotlin-for-forge": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "lithium": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "lootr": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "moogs-end-structures": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "moogs-voyager-structures": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "melody": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "moogs-structure-lib": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "selene": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "more-sweet-treats": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "mouse-tweaks": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "necronomicon": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "no-chat-reports": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "not-enough-animations": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "open-parties-and-claims": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "open-parties-and-claims-pvp-support": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "overflowing-bars": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "packet-fixer": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "pick-up-notifier": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "placebo": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "plasmo-voice": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "polymorph": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "prickle": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "puzzles-lib": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "ritchies-projectile-library": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
+        },
+        "sable": {
+            "update_strategy": "NONE"
         },
         "serene-seasons": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "smooth-chunk-save": {
-            "side": "SERVER"
+            "update_strategy": "NONE"
         },
         "sign-plates-letters-symbols": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "sodium": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "dynamiclights-reforged": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "sophisticated-backpacks": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "sophisticated-core": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "sound-physics-remastered": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "supplementaries": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "terrablender-neoforge": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "terralith": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "tool-belt": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "tough-as-nails": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "worldedit": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "worldedit-cui-forge": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "xaero-train-map": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "xaeros-minimap": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "xaeros-world-map": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "big-cannons-aeronautics-fix": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "entity-model-features": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "entity-texture-features-fabric": {
-            "side": "CLIENT"
+            "update_strategy": "NONE"
         },
         "pv-addon-soundphysics": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         },
         "spark": {
-            "side": "BOTH"
+            "update_strategy": "NONE"
         }
     }
 }
