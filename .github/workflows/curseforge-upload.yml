@@ -1,4 +1,4 @@
-name: Upload Modpack to CurseForge
+name: Build Modpack Release
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  upload-curseforge:
+  build-release:
     runs-on: ubuntu-latest
     
     steps:
@@ -29,13 +29,27 @@ jobs:
         run: |
           java -jar pakku.jar export
         
-      - name: Upload CurseForge Profile
-        uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
+      - name: Upload CurseForge Profile Artifact
+        uses: actions/upload-artifact@v4
         with:
-          api-token: ${{ secrets.CURSEFORGE_API_KEY }}
-          project-id: ${{ secrets.CURSEFORGE_PROJECT_ID }}
-          modpack-path: build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
-          modpack-server-path: build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
-          display-name: "v${{ steps.version.outputs.version }}"
-          release-type: "release"
-          changelog: "Automated upload from GitHub Actions - ${{ github.sha }}"
+          name: EpochX-${{ steps.version.outputs.version }}-modpack
+          path: build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
+      
+      - name: Build Server Pack
+        run: |
+          java -jar pakku.jar export serverpack --output build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
+        
+      - name: Upload Server Pack Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: EpochX-${{ steps.version.outputs.version }}-serverpack
+          path: build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: EpochX ${{ steps.version.outputs.version }}
+          body: "Automated release from GitHub Actions"
+          draft: false
+          prerelease: false
