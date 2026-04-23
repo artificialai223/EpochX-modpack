@@ -3,11 +3,15 @@ name: Build Modpack Release
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
-  build-release:
+  build-release-dev:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      discussions: write
     
     steps:
       - name: Checkout repository
@@ -32,27 +36,21 @@ jobs:
       - name: List built files
         run: |
           ls -laR build/
-      
-      - name: Upload CurseForge Profile Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: EpochX-${{ steps.version.outputs.version }}-curseforge
-          path: build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
-      
-      - name: Upload Server Pack Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: EpochX-${{ steps.version.outputs.version }}-serverpack
-          path: build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
+
+      - name: List built files
+        run: |
+          mkdir -p build/releasefiles
+          mv build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip build/releasefiles/EpochX-${{ steps.version.outputs.version }}-client.zip
+          mv build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip build/releasefiles/EpochX-${{ steps.version.outputs.version }}-server.zip
       
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.version.outputs.version }}
-          name: EpochX ${{ steps.version.outputs.version }}
+          tag_name: v${{ steps.version.outputs.version }}-dev
+          name: EpochX ${{ steps.version.outputs.version }} - dev
           body: "Automated release from GitHub Actions"
           draft: false
-          prerelease: false
+          prerelease: true
           files: |
-            build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
-            build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
+            build/releasefiles/EpochX-${{ steps.version.outputs.version }}-client.zip
+            build/releasefiles/EpochX-${{ steps.version.outputs.version }}-server.zip
