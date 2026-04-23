@@ -64,9 +64,7 @@
         "terrablender-neoforge": {
             "side": "BOTH"
         },
-        "tool-belt": {
-            "side": "BOTH"
-        },
+        
         "worldedit-cui-forge": {
             "side": "CLIENT"
         },
