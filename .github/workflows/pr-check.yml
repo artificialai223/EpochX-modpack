@@ -1,0 +1,66 @@
+name: PR Check - Modpack Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-mod-sides:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '26'
+          distribution: 'temurin'
+          
+      - name: Run pakku ls and capture output
+        id: mod-list
+        run: |
+          echo "=== Running pakku ls ===" 
+          java -jar pakku.jar ls > /tmp/pakku_ls_output.txt 2>&1 || true
+          cat /tmp/pakku_ls_output.txt
+        
+      - name: Validate mod side annotations
+        run: |
+          # Extract mod names and their side annotations from pakku ls output
+          
+          declare -a invalid_mods=()
+          
+          while IFS= read -r line; do
+            # Skip empty lines and headers
+            [[ -z "$line" ]] && continue
+            [[ "$line" =~ ^[[:space:]]*$ ]] && continue
+            
+            # Check if this is a mod/shader/resource_pack entry (contains MOD, SHADER, or RESOURCE_PACK)
+            if [[ "$line" =~ (MOD|SHADER|RESOURCE_PACK)[[:space:]]*$ ]]; then
+              # Extract the side annotation (last field)
+              side=$(echo "$line" | awk '{print $NF}')
+              
+              # Check if side is valid
+              if [[ "$side" != "BOTH" && "$side" != "CLIENT" && "$side" != "SERVER" ]]; then
+                # Extract mod identifier (first {field=...} pattern)
+                mod_id=$(echo "$line" | grep -oP '^\s*\{[^}]+\}' | sed 's/[{}]//')
+                
+                if [[ -n "$mod_id" ]]; then
+                  invalid_mods+=("$mod_id")
+                fi
+              fi
+            fi
+          done < /tmp/pakku_ls_output.txt
+          
+          # Report results
+          if [ ${#invalid_mods[@]} -gt 0 ]; then
+            echo "❌ FAILED: The following mods have empty or invalid side annotations:"
+            for mod in "${invalid_mods[@]}"; do
+              echo "  - $mod"
+            done
+            exit 1
+          else
+            echo "✅ PASSED: All mods have valid side annotations (BOTH, CLIENT, or SERVER)"
+          fi

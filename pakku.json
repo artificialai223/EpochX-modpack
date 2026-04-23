@@ -1,17 +1,19 @@
 {
     "name": "EpochX",
-    "version": "7.1.1",
+    "version": "0.0.1",
     "overrides": [
         "config",
         "datapacks",
         "defaultconfigs",
         "fancymenu_data",
-        "mods",
         "resourcepacks",
         "shaderpacks"
     ],
     "projects": {
         "biomes-o-plenty": {
+            "side": "BOTH"
+        },
+        "alltheleaks": {
             "side": "BOTH"
         },
         "placebo": {
