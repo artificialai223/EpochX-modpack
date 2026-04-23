@@ -10,9 +10,6 @@
         "shaderpacks"
     ],
     "projects": {
-        "biomes-o-plenty": {
-            "side": "BOTH"
-        },
         "alltheleaks": {
             "side": "BOTH"
         },
@@ -64,7 +61,6 @@
         "terrablender-neoforge": {
             "side": "BOTH"
         },
-        
         "worldedit-cui-forge": {
             "side": "CLIENT"
         },
