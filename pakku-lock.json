@@ -1092,6 +1092,43 @@
             ]
         },
         {
+            "pakku_id": "LDygWzLyZWFFY9kG",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-train-parts"
+            },
+            "name": {
+                "curseforge": "Create Train Parts"
+            },
+            "id": {
+                "curseforge": "1294279"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create_train_parts-0.3.6-1.21.1-6.0.9-216.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7566/693/create_train_parts-0.3.6-1.21.1-6.0.9-216.jar",
+                    "id": "7566693",
+                    "parent_id": "1294279",
+                    "hashes": {
+                        "sha1": "9375e43d82fed97ece089dc460c7c46bba351af3",
+                        "md5": "23be281bee0d0965153daba936a98075"
+                    },
+                    "required_dependencies": [],
+                    "size": 3531012,
+                    "date_published": "2026-02-02T16:33:27.340Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "IpdoPv9AuusRM0dN",
             "type": "MOD",
             "side": "BOTH",
