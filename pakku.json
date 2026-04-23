@@ -9,5 +9,70 @@
         "mods",
         "resourcepacks",
         "shaderpacks"
-    ]
+    ],
+    "projects": {
+        "biomes-o-plenty": {
+            "side": "BOTH"
+        },
+        "placebo": {
+            "side": "BOTH"
+        },
+        "tough-as-nails": {
+            "side": "BOTH"
+        },
+        "configured": {
+            "side": "CLIENT"
+        },
+        "create-delivery-area": {
+            "side": "BOTH"
+        },
+        "create-connected": {
+            "side": "BOTH"
+        },
+        "cupboard": {
+            "side": "BOTH"
+        },
+        "farsight": {
+            "side": "CLIENT"
+        },
+        "fastsuite": {
+            "side": "BOTH"
+        },
+        "glitchcore": {
+            "side": "BOTH"
+        },
+        "kotlin-for-forge": {
+            "side": "BOTH"
+        },
+        "serene-seasons": {
+            "side": "BOTH"
+        },
+        "smooth-chunk-save": {
+            "side": "SERVER"
+        },
+        "sign-plates-letters-symbols": {
+            "side": "BOTH"
+        },
+        "sophisticated-backpacks": {
+            "side": "BOTH"
+        },
+        "sophisticated-core": {
+            "side": "BOTH"
+        },
+        "sound-physics-remastered": {
+            "side": "BOTH"
+        },
+        "terrablender-neoforge": {
+            "side": "BOTH"
+        },
+        "tool-belt": {
+            "side": "BOTH"
+        },
+        "worldedit-cui-forge": {
+            "side": "CLIENT"
+        },
+        "big-cannons-aeronautics-fix": {
+            "side": "BOTH"
+        }
+    }
 }

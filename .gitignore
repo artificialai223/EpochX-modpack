@@ -1,71 +1,18 @@
-# ==============================================================================
-# EpochX Modpack - Git Ignore File
-# ==============================================================================
-# This file specifies patterns for files and directories that should be ignored
-# by Git. These are typically local, generated, or sensitive files that should
-# not be version controlled.
-#
-# Pakku Integration:
-# - Use "pakku fetch" to download mods and external resources from CurseForge
-# - Use "pakku sync" after making changes via CurseForge web interface
-# ==============================================================================
-
-# -----------------------------------------------------------------------------
-# MODS & ADDON FILES (ROOT ONLY)
-# -----------------------------------------------------------------------------
-/mods/                    # Mod files downloaded by Pakku (managed externally)
-/shaderpacks/             # Shader pack files (can be managed by Pakku or local)
-/resourcepacks/           # Resource pack files (can be managed by Pakku or local)
-
-# -----------------------------------------------------------------------------
-# XAERO MODS - PLAYER-SPECIFIC SETTINGS (ROOT ONLY)
-# -----------------------------------------------------------------------------
-/xaero*                   # Xaero's Minimap wildcard (settings, maps, etc.)
-/xaero                    # Xaero's World Map data directory
-
-# These are player-specific configurations and should not be shared
-
-# -----------------------------------------------------------------------------
-# SAVE FILES & WORLD DATA (ROOT ONLY)
-# -----------------------------------------------------------------------------
-/saves/                   # Minecraft world save files (large, player-specific)
-/schematics/              # Litematica schematic files (can vary by player)
-
-# -----------------------------------------------------------------------------
-# DATAPACKS - DYNAMIC CACHE DIRECTORIES (ROOT ONLY)
-# -----------------------------------------------------------------------------
-/moonlight-global-datapacks/      # Moonlight mod's global datapack cache
-/dynamic-data-pack-cache/         # Dynamic Datapacks mod cache directory
-/dynamic-resource-pack-cache/     # Dynamic Resource Packs mod cache directory
-
-# These caches are regenerated and should not be version controlled
-
-# -----------------------------------------------------------------------------
-# DOWNLOADS & GENERATED FILES (ROOT ONLY)
-# -----------------------------------------------------------------------------
-/downloads/               # Downloaded files from in-game downloaders
-/local/                   # Local-only configuration or overrides
-/debug/                   # Debug mode output files
-
-# -----------------------------------------------------------------------------
-# LOGS & CRASH REPORTS (ROOT ONLY)
-# -----------------------------------------------------------------------------
-/logs/                    # Minecraft log files (generated during runtime)
-/crash-reports/           # Crash report files (auto-generated on crashes)
-/crash-reporter/          # Crash reporter tool outputs
-
-# These are diagnostic files that change frequently and are not needed in Git
-
-# -----------------------------------------------------------------------------
-# PLAYER CONFIGURATION & CACHE FILES (ROOT ONLY)
-# -----------------------------------------------------------------------------
-/options.txt              # Player video/audio controls and keybindings
-/servers.dat              # Multiplayer server list (player-specific)
-/servers.dat_old          # Backup of servers.dat
-/command_history.txt      # In-game command history
-/ponders_watched.json     # Ponder mod watched animations (player progress)
-/usernamecache.json       # Username lookup cache
-/usercache.json           # User authentication cache
-/session.lock             # Session lock file (prevents multiple instances)
-
-# These files contain personal settings and should remain local only
+mods
+shaderpacks
+resourcepacks
+xaero*
+xaero
+saves
+schematics
+logs
+local
+moonlight-global-datapacks
+dynamic-data-pack-cache
+downloads
+debug
+crash-reporter
+options.txt
+servers.dat
+servers.dat_old
+command_history.txt

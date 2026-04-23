@@ -502,6 +502,7 @@
                 "8uLHnyOYKN8Fn2gZ"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "biomes-o-plenty"
             },
@@ -1064,6 +1065,7 @@
         {
             "pakku_id": "NlndmIsjy5IntPhd",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "configured"
             },
@@ -1487,6 +1489,7 @@
         {
             "pakku_id": "1fKZC4dgUM1zmjl6",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "create-delivery-area"
             },
@@ -1855,6 +1858,7 @@
         {
             "pakku_id": "et27AC9HDfCRpoHl",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "create-connected"
             },
@@ -2493,6 +2497,7 @@
         {
             "pakku_id": "OBvcDPuYUnjxN8Kl",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "cupboard"
             },
@@ -3015,6 +3020,7 @@
         {
             "pakku_id": "YDydLxqfVnklpl8E",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "farsight"
             },
@@ -3057,6 +3063,7 @@
                 "9Qa7KnommjPBwLeh"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "fastsuite"
             },
@@ -3445,6 +3452,7 @@
         {
             "pakku_id": "DB89apVjAYRWJpEU",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "glitchcore"
             },
@@ -3801,6 +3809,7 @@
         {
             "pakku_id": "uHxON35Llo8SZWhU",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "kotlin-for-forge"
             },
@@ -5052,6 +5061,7 @@
         {
             "pakku_id": "9Qa7KnommjPBwLeh",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "placebo"
             },
@@ -5434,6 +5444,7 @@
         {
             "pakku_id": "00UjmuWmYynN9Aga",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "serene-seasons"
             },
@@ -5472,6 +5483,7 @@
         {
             "pakku_id": "iH4my5NAApYLVXSN",
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
                 "curseforge": "smooth-chunk-save"
             },
@@ -5511,6 +5523,7 @@
         {
             "pakku_id": "xjM6MtgaoH6OdpeY",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "sign-plates-letters-symbols"
             },
@@ -5679,6 +5692,7 @@
                 "GjmnnBQt5Ny6VWZv"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "sophisticated-backpacks"
             },
@@ -5717,6 +5731,7 @@
         {
             "pakku_id": "GjmnnBQt5Ny6VWZv",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "sophisticated-core"
             },
@@ -5753,6 +5768,7 @@
         {
             "pakku_id": "07URTPFhxO0hmsxW",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "sound-physics-remastered"
             },
@@ -5855,6 +5871,7 @@
         {
             "pakku_id": "8uLHnyOYKN8Fn2gZ",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "terrablender-neoforge"
             },
@@ -5966,6 +5983,7 @@
         {
             "pakku_id": "Q9NW69F6YgUdcClf",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "tool-belt"
             },
@@ -5996,6 +6014,45 @@
                     "required_dependencies": [],
                     "size": 217073,
                     "date_published": "2026-04-13T20:08:23.763Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kPk2kEBia4h4eWvZ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "tough-as-nails"
+            },
+            "name": {
+                "curseforge": "Tough As Nails"
+            },
+            "id": {
+                "curseforge": "246391"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ToughAsNails-neoforge-1.21.1-10.1.0.13.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5833/252/ToughAsNails-neoforge-1.21.1-10.1.0.13.jar",
+                    "id": "5833252",
+                    "parent_id": "246391",
+                    "hashes": {
+                        "sha1": "a90d30bb2d4a53830319ecfc842c28c013e2428f",
+                        "md5": "fb8f3b37bc886fd3d77b292c486aa3ac"
+                    },
+                    "required_dependencies": [
+                        "955399"
+                    ],
+                    "size": 429638,
+                    "date_published": "2024-10-22T11:04:42.400Z"
                 }
             ]
         },
@@ -6067,6 +6124,7 @@
         {
             "pakku_id": "LJJoSVbFea8UVThE",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "worldedit-cui-forge"
             },
@@ -6297,47 +6355,12 @@
             ]
         },
         {
-            "pakku_id": "HyjA5pi8S72lTgYF",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ycurrenci"
-            },
-            "name": {
-                "curseforge": "Ycurrency"
-            },
-            "id": {
-                "curseforge": "1092594"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ycurrenci-2.1.0-neoforge-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6452/657/ycurrenci-2.1.0-neoforge-1.21.1.jar",
-                    "id": "6452657",
-                    "parent_id": "1092594",
-                    "hashes": {
-                        "sha1": "d9bacf771f4ea342fa33e4dd3cd5f576a838905f",
-                        "md5": "e7c1c5257c8f2f20db43465749fcaec7"
-                    },
-                    "required_dependencies": [],
-                    "size": 2028754,
-                    "date_published": "2025-04-22T17:44:42.400Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "5XOLG1YyC6P896fw",
             "pakku_links": [
                 "c5q8G67ZDyfU6DzG"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "big-cannons-aeronautics-fix"
             },
