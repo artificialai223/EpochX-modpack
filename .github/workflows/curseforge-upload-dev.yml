@@ -36,18 +36,12 @@ jobs:
       - name: List built files
         run: |
           ls -laR build/
-      
-      - name: Upload CurseForge Profile Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: EpochX-${{ steps.version.outputs.version }}-curseforge
-          path: build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
-      
-      - name: Upload Server Pack Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: EpochX-${{ steps.version.outputs.version }}-serverpack
-          path: build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
+
+      - name: List built files
+        run: |
+          mkdir -p build/releasefiles
+          mv build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip build/releasefiles/EpochX-${{ steps.version.outputs.version }}-client.zip
+          mv build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip build/releasefiles/EpochX-${{ steps.version.outputs.version }}-server.zip
       
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
@@ -58,5 +52,5 @@ jobs:
           draft: false
           prerelease: true
           files: |
-            build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
-            build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
+            build/releasefiles/EpochX-${{ steps.version.outputs.version }}-client.zip
+            build/releasefiles/EpochX-${{ steps.version.outputs.version }}-server.zip
