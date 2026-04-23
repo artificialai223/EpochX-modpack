@@ -27,7 +27,7 @@ jobs:
         
       - name: Build CurseForge Profile
         run: |
-          java -jar pakku.jar export curseforge --output build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
+          java -jar pakku.jar export
         
       - name: Upload CurseForge Profile
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
