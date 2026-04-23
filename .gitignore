@@ -9,6 +9,7 @@ logs
 local
 moonlight-global-datapacks
 dynamic-data-pack-cache
+dynamic-resource-pack-cache
 downloads
 debug
 crash-reporter
@@ -16,3 +17,8 @@ options.txt
 servers.dat
 servers.dat_old
 command_history.txt
+ponders_watched.json
+usernamecache.json
+usercache.json
+session.lock
+crash-reports

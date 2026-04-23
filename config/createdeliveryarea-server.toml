@@ -1,0 +1,33 @@
+[delivery]
+	#Cooldown in seconds after a zone validation before it can be validated again
+	# Default: 300
+	# Range: 0 ~ 3600
+	cooldownSeconds = 300
+	#Maximum size of a delivery zone on any axis
+	# Default: 64
+	# Range: 1 ~ 256
+	maxZoneSize = 64
+	#Default point value per block if no specific value is set
+	# Default: 1
+	# Range: 1 ~ 1000
+	defaultPointValue = 1
+	#Minimum total points required for a delivery to be validated
+	# Default: 1
+	# Range: > 0
+	minimumDeliveryThreshold = 1
+	#Enable particle effects on zone borders
+	particlesEnabled = true
+	#Enable sound effects on delivery validation
+	soundEnabled = true
+	#Interval in seconds between automatic zone scans. Set to 0 to disable auto-scan (manual validate only).
+	# Default: 30
+	# Range: 0 ~ 600
+	autoScanIntervalSeconds = 30
+	#Radius in blocks around the zone to search for the nearest player to attribute points to
+	# Default: 32
+	# Range: 1 ~ 128
+	autoScanPlayerRadius = 32
+	#Amount of money credited per delivery point via HUDCreator economy. Set to 0 to disable money rewards.
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	moneyPerPoint = 1.0
