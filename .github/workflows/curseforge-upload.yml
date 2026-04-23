@@ -25,20 +25,20 @@ jobs:
           VERSION=$(jq -r '.version' pakku.json)
           echo "version=$VERSION" >> $GITHUB_OUTPUT
         
-      - name: Build CurseForge Profile
+      - name: Build Modpack (CurseForge Profile + Server Pack)
         run: |
           java -jar pakku.jar export
-        
+      
+      - name: List built files
+        run: |
+          ls -laR build/
+      
       - name: Upload CurseForge Profile Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: EpochX-${{ steps.version.outputs.version }}-modpack
+          name: EpochX-${{ steps.version.outputs.version }}-curseforge
           path: build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
       
-      - name: Build Server Pack
-        run: |
-          java -jar pakku.jar export serverpack --output build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
-        
       - name: Upload Server Pack Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -53,3 +53,6 @@ jobs:
           body: "Automated release from GitHub Actions"
           draft: false
           prerelease: false
+          files: |
+            build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
+            build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
