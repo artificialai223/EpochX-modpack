@@ -1,0 +1,58 @@
+name: Build Modpack Release
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '26'
+          distribution: 'temurin'
+          
+      - name: Get version from pakku.json
+        id: version
+        run: |
+          VERSION=$(jq -r '.version' pakku.json)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+        
+      - name: Build Modpack (CurseForge Profile + Server Pack)
+        run: |
+          java -jar pakku.jar export
+      
+      - name: List built files
+        run: |
+          ls -laR build/
+      
+      - name: Upload CurseForge Profile Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: EpochX-${{ steps.version.outputs.version }}-curseforge
+          path: build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
+      
+      - name: Upload Server Pack Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: EpochX-${{ steps.version.outputs.version }}-serverpack
+          path: build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}-dev
+          name: EpochX ${{ steps.version.outputs.version }} - dev
+          body: "Automated release from GitHub Actions"
+          draft: false
+          prerelease: true
+          files: |
+            build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
+            build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip
