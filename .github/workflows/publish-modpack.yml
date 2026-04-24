@@ -1,0 +1,49 @@
+name: Publish Modpack to CurseForge and Modrinth
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-client:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '26'
+          distribution: 'temurin'
+          
+      - name: Get version from pakku.json
+        id: version
+        run: |
+          VERSION=$(jq -r '.version' pakku.json)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Build Modpack Client
+        run: |
+          java -jar pakku.jar export
+      
+      - name: Upload to CurseForge
+        uses: itsmeow/curseforge-upload@main
+        with:
+          curseforge_api_key: ${{ secrets.CURSEFORGE_API_KEY }}
+          file_path: build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
+          project_id: ${{ secrets.CURSEFORGE_PROJECT_ID }}
+          game_version_types: ["release"]
+          display_name: v${{ steps.version.outputs.version }}
+
+      - name: Upload to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: ${{ secrets.MODRINTH_PROJECT_ID }}
+          version: v${{ steps.version.outputs.version }}
+          loaders: ["neoforge"]
+          game-versions: ["1.21.1"]
+          files: build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip
