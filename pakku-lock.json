@@ -159,6 +159,44 @@
             ]
         },
         {
+            "pakku_id": "TCdtLULhWb4exti4",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ars-nouveau"
+            },
+            "name": {
+                "modrinth": "Ars Nouveau"
+            },
+            "id": {
+                "modrinth": "TKB6INcv"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ars_nouveau-1.21.1-5.11.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/TKB6INcv/versions/BmGGrC9A/ars_nouveau-1.21.1-5.11.3.jar",
+                    "id": "BmGGrC9A",
+                    "parent_id": "TKB6INcv",
+                    "hashes": {
+                        "sha512": "2f764a1ecade4a287afa251e1e340c9985e7f4521fd666e5760f61260a0860c8bdab23cba068be21c94c6a6a87223d9a8ed4342cf6c5604ec2c3ad1717bc3836",
+                        "sha1": "0af12dd7fda63a4261ceb302c9bb57fc235641c6"
+                    },
+                    "required_dependencies": [],
+                    "size": 20689115,
+                    "date_published": "2026-03-15T22:08:16.641988Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "50TrTBfvlzpwLQ62",
             "type": "MOD",
             "side": "BOTH",
@@ -770,6 +808,88 @@
             ]
         },
         {
+            "pakku_id": "DGBaKlScyNg3MeQI",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-compressed"
+            },
+            "name": {
+                "modrinth": "Create Compressed"
+            },
+            "id": {
+                "modrinth": "Sy4Box1J"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_compressed-2.2.0-neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Sy4Box1J/versions/rW8MeyAL/create_compressed-2.2.0-neoforge-1.21.1.jar",
+                    "id": "rW8MeyAL",
+                    "parent_id": "Sy4Box1J",
+                    "hashes": {
+                        "sha512": "b0f9f1a324c30cd6b29aa8f1c3f5dfd0fdc6fd5e050ecc066f66c97146ce403e569ea686e97aca11877f9b9dcddbe3c28374eea2e4c67b5c4ab7a8dd2897761e",
+                        "sha1": "286c948a50b085ddfa6360ca8ef176775d32e4fd"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 158961,
+                    "date_published": "2025-03-01T19:40:54.878810Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jicrtStUHJAhbt2X",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-confectionery"
+            },
+            "name": {
+                "modrinth": "Create Confectionery"
+            },
+            "id": {
+                "modrinth": "WPE5gRs9"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create-confectionery1.21.1_v1.1.2.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/WPE5gRs9/versions/m9KI739R/create-confectionery1.21.1_v1.1.2.jar",
+                    "id": "m9KI739R",
+                    "parent_id": "WPE5gRs9",
+                    "hashes": {
+                        "sha512": "2ea7f9e0114c5a22f0c1795b1a6fdd841e4b1d7faaaf5795f923b3fcf7d2de0c0841fdfa37ade711a68e1cd7cedb1576d29113bf14b012929e3aca6f336bfec9",
+                        "sha1": "03110e94c56c74118d1fdd7c463f0e18e32a1a37"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 2126985,
+                    "date_published": "2025-05-04T13:34:30.794405Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9541cf333hT9oUph",
             "type": "MOD",
             "side": "BOTH",
@@ -844,6 +964,200 @@
             ]
         },
         {
+            "pakku_id": "mkACn5hzMK9ifTBT",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-encased"
+            },
+            "name": {
+                "modrinth": "Create Encased"
+            },
+            "id": {
+                "modrinth": "hSSqdyU1"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Create Encased-1.21.1-1.8-ht2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hSSqdyU1/versions/sjCAxK2s/Create Encased-1.21.1-1.8-ht2.jar",
+                    "id": "sjCAxK2s",
+                    "parent_id": "hSSqdyU1",
+                    "hashes": {
+                        "sha512": "5a390e43fd0ef0cedf277ca985199bcd7dd3f83ce3a132774436808191ef24611541c3349ddbea7c82a5a3cde11ed87c72173a46498c7555947436b51894f24e",
+                        "sha1": "957a7ee1741c7a8536bedd401a923d7fb73a7092"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 2410332,
+                    "date_published": "2026-01-14T18:14:05.967348Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "lUhfcbIJr8RH6HXQ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create_factory_logistics"
+            },
+            "name": {
+                "modrinth": "Create Factory Logistics"
+            },
+            "id": {
+                "modrinth": "QMGO17gm"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_factory_logistics-1.21.1-1.4.9.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/QMGO17gm/versions/uvsUx0PA/create_factory_logistics-1.21.1-1.4.9.jar",
+                    "id": "uvsUx0PA",
+                    "parent_id": "QMGO17gm",
+                    "hashes": {
+                        "sha512": "bcc94895701c19c27038fb00774e3295ec8126b59adda9be56cd44530a1c3735f8cc6ee706973d111f0a3dad63732e984bab99182c84e4118ac1bdf5dd3160c8",
+                        "sha1": "f1cfba2e7fc290cc4083c6fff9080c43becee46a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1134582,
+                    "date_published": "2026-01-16T19:55:20.966909Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZQQCFWUjkSAVRSYF",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-more-parallel-pipes"
+            },
+            "name": {
+                "modrinth": "Create More: Parallel Pipes"
+            },
+            "id": {
+                "modrinth": "5jfUeix5"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "cmparallelpipes-neoforge-2.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5jfUeix5/versions/aYrPugrv/cmparallelpipes-neoforge-2.0.2.jar",
+                    "id": "aYrPugrv",
+                    "parent_id": "5jfUeix5",
+                    "hashes": {
+                        "sha512": "1a08dba7a1cef3d9e4aedbdb3616eac6c1d2f0b3f77aa936c5a293e6099f40bb7805b1f53461feb9bd8a9196cf10dd8fbd27de35dd9fd5bc48a7a9de1158b072",
+                        "sha1": "8d6c6653ef9a3b373132fb4e42a7b007111c2998"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 28606,
+                    "date_published": "2025-12-25T17:56:46.633802Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Bedj8pU14vnou9ER",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "createnuclear"
+            },
+            "name": {
+                "modrinth": "Create Nuclear"
+            },
+            "id": {
+                "modrinth": "z611fdf7"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "createnuclear-1.3.2-beta.3-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/z611fdf7/versions/waO2BSHO/createnuclear-1.3.2-beta.3-neoforge.jar",
+                    "id": "waO2BSHO",
+                    "parent_id": "z611fdf7",
+                    "hashes": {
+                        "sha512": "39d9691d8f00f375a438193139c30fe60032cf04cd99d83fa428fefef5c8ed79d49d8f09b5f0e57fb4b2c4058fc4c2bad942a0913dd885f701a5e9f0d9d2f36f",
+                        "sha1": "c4349006fd07e614b0de3c5982d7f0d0a818c98c"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 1842160,
+                    "date_published": "2025-12-13T18:03:01.660272Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "3eEzON5K846gFfw0",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-ore-excavation"
+            },
+            "name": {
+                "modrinth": "Create Ore Excavation"
+            },
+            "id": {
+                "modrinth": "ResbpANg"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "createoreexcavation-1.21-1.6.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ResbpANg/versions/tivxiPTo/createoreexcavation-1.21-1.6.8.jar",
+                    "id": "tivxiPTo",
+                    "parent_id": "ResbpANg",
+                    "hashes": {
+                        "sha512": "844ae32ff0d22f4d3c83db3bae2f6edc0f74cd1a530f900bf18829838d5a354b1e439e52688416130d9fd9a52c3310458bbdbc7458f4c1c1d8ffb088ae802d32",
+                        "sha1": "9a76b86ec7470d4bd7332f22d6e50a3693098c10"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 476990,
+                    "date_published": "2025-11-08T15:11:29.738108Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tGuQPmFg3IpMTYHi",
             "pakku_links": [
                 "DsBnQpdBdpUjMCDC",
@@ -884,6 +1198,46 @@
                     ],
                     "size": 2035302,
                     "date_published": "2026-03-14T07:55:12.310075Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "53ehPzvUrL5jtTj7",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-ratatouille"
+            },
+            "name": {
+                "modrinth": "Create Ratatouille"
+            },
+            "id": {
+                "modrinth": "XM0ifg8q"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_ratatouille-1.21.1-1.3.9.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XM0ifg8q/versions/4jrYqs37/create_ratatouille-1.21.1-1.3.9.jar",
+                    "id": "4jrYqs37",
+                    "parent_id": "XM0ifg8q",
+                    "hashes": {
+                        "sha512": "a256e83a1e6dd7aeb507abd53f5df236e1c9a9ff69f045074bd29d916337d354fb80ee9c7fcd0305d765d4afacb3d625a738bafb896ac3490251431628aa92fe",
+                        "sha1": "e2c01836fa8ae79529cb43687956cc6e67ee1712"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "R2OftAxM"
+                    ],
+                    "size": 917002,
+                    "date_published": "2026-04-20T05:08:29.740153Z"
                 }
             ]
         },
@@ -1053,6 +1407,45 @@
             ]
         },
         {
+            "pakku_id": "LPOXS2Flsly15jEo",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-broken-bad-fabric"
+            },
+            "name": {
+                "modrinth": "Create: Broken Bad ReBroken"
+            },
+            "id": {
+                "modrinth": "uIfluo9C"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "createbb-1.1.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uIfluo9C/versions/3miIhOJG/createbb-1.1.3.jar",
+                    "id": "3miIhOJG",
+                    "parent_id": "uIfluo9C",
+                    "hashes": {
+                        "sha512": "729fe9028692c421fe56f3ba9507ca0ce888d71f9e01078c94e5e3128ef3d85e87417599f0846fd35704bf64dd129870df284f6f6dd55de9f9ed23f4147f12ac",
+                        "sha1": "152951572b3f1fe1c12dff23c17dd84fe73c513b"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 179028,
+                    "date_published": "2025-07-23T19:06:04.418222Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wyIAoZ27H3fAscSn",
             "type": "MOD",
             "side": "BOTH",
@@ -1088,6 +1481,45 @@
                     ],
                     "size": 342206,
                     "date_published": "2026-03-05T11:19:42.172212Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "SDxO26QeSi1oXEnM",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-connected"
+            },
+            "name": {
+                "modrinth": "Create: Connected"
+            },
+            "id": {
+                "modrinth": "Vg5TIO6d"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_connected-1.1.13-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Vg5TIO6d/versions/cpErBxbD/create_connected-1.1.13-mc1.21.1.jar",
+                    "id": "cpErBxbD",
+                    "parent_id": "Vg5TIO6d",
+                    "hashes": {
+                        "sha512": "e7fe213615cf888b09c28ed88fcb2379d537ad610435764f5338af2460c9decd40248848d7dbee1686ff1729e54068aee15a6583d8e3bbaacfb37de60badb96f",
+                        "sha1": "59314285929fb405e667a1dd8d1c32cddbd69a18"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 6555122,
+                    "date_published": "2026-02-08T11:48:57.698367Z"
                 }
             ]
         },
@@ -1164,6 +1596,89 @@
                     "required_dependencies": [],
                     "size": 45837,
                     "date_published": "2026-01-17T17:48:36.621302Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DiCQRpXSQrLcg2mX",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-design-n-decor"
+            },
+            "name": {
+                "modrinth": "Create: Design n' Decor"
+            },
+            "id": {
+                "modrinth": "x49wilh8"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Design-n-Decor-1.21.1-2.1.0.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/x49wilh8/versions/m6PCLHcp/Design-n-Decor-1.21.1-2.1.0.jar",
+                    "id": "m6PCLHcp",
+                    "parent_id": "x49wilh8",
+                    "hashes": {
+                        "sha512": "4aedb1e3a3fe67b391b5c877e094c6cbb5eb395b4f3173b860c90e2ea4e803d1367fd6593bb378184ad46991cf2d5c656444e60edebecf9887e053f29e9e5a9f",
+                        "sha1": "6ff962a9c2e9cc9abdc6de0b01f834839ce7fed1"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 3264862,
+                    "date_published": "2025-07-29T10:51:02.732879Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8v7bx9wGrEWXKEx2",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-diesel-generators"
+            },
+            "name": {
+                "modrinth": "Create: Diesel Generators"
+            },
+            "id": {
+                "modrinth": "ZM3tt6p1"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "createdieselgenerators-1.21.1-1.3.11.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ZM3tt6p1/versions/uxgzKkcD/createdieselgenerators-1.21.1-1.3.11.jar",
+                    "id": "uxgzKkcD",
+                    "parent_id": "ZM3tt6p1",
+                    "hashes": {
+                        "sha512": "f17dab936aa29a8a3583e2813a995ed080f28d9955f1644d2888d9b40a9d43e7224ae024b2161698ca6bf94dfbf026db74d688baf8ecda5479e120d36d14efed",
+                        "sha1": "4251563ec3c21048cf0f097dd0c6d21f2475507b"
+                    },
+                    "required_dependencies": [],
+                    "size": 3132480,
+                    "date_published": "2026-04-03T20:03:22.367274Z"
                 }
             ]
         },
@@ -1285,6 +1800,84 @@
             ]
         },
         {
+            "pakku_id": "On5ECwjrbb5FygRq",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "interiors"
+            },
+            "name": {
+                "modrinth": "Create: Interiors"
+            },
+            "id": {
+                "modrinth": "r4Knci2k"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "interiors-1.21.1-neoforge-0.6.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/r4Knci2k/versions/gBrfZy6S/interiors-1.21.1-neoforge-0.6.1.jar",
+                    "id": "gBrfZy6S",
+                    "parent_id": "r4Knci2k",
+                    "hashes": {
+                        "sha512": "68b0d915e41fb0ce9d12a8c580d688a604770ded2b21e963058aa6d80cbc5661c481416d051a541395b5c79f461edcb658046e53cfcfb405179a450662ed01b5",
+                        "sha1": "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
+                    },
+                    "required_dependencies": [],
+                    "size": 486912,
+                    "date_published": "2026-01-29T02:53:21.569822Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zfiQARHTqYZh4TZK",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "create-let-the-adventure-begin"
+            },
+            "name": {
+                "modrinth": "Create: Let The Adventure Begin"
+            },
+            "id": {
+                "modrinth": "fUa6OtBG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_ltab-3.9.0.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fUa6OtBG/versions/VhDAS0FW/create_ltab-3.9.0.jar",
+                    "id": "VhDAS0FW",
+                    "parent_id": "fUa6OtBG",
+                    "hashes": {
+                        "sha512": "d229c277a040e454f05bf31ab90bb6fa9b62e5cde49f9614ffb710d9ca98a71d1d7fc9fca9c602aa74caecd41330f5688b8f63c71ab32b440ffa26b88a28748b",
+                        "sha1": "8323470967d769db5bdd3a3fc1905a4b0e11fecd"
+                    },
+                    "required_dependencies": [],
+                    "size": 2590110,
+                    "date_published": "2026-04-21T18:33:14.686135Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2dycdQ0XeaB0cl4w",
             "type": "MOD",
             "side": "BOTH",
@@ -1320,6 +1913,95 @@
                     ],
                     "size": 693446,
                     "date_published": "2026-04-19T01:31:07.499188Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "G2wj3R7T4OQ7Cky4",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-sound-of-steam"
+            },
+            "name": {
+                "modrinth": "Create: Sound of Steam"
+            },
+            "id": {
+                "modrinth": "yGttHo06"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "pipeorgans-0.8.2+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/yGttHo06/versions/iFePoN10/pipeorgans-0.8.2+1.21.1.jar",
+                    "id": "iFePoN10",
+                    "parent_id": "yGttHo06",
+                    "hashes": {
+                        "sha512": "883cd6a411980e8cf03ff3447ed2397f5681df10a0e06f7129712a55e01c0776d63aa2741270482d599371d2c2b59927779c1330a920ef494307060bde03924e",
+                        "sha1": "112adb2a6f8d9ff60ebd52602f1b01ea96a37920"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 6593821,
+                    "date_published": "2025-12-10T13:03:31.228501Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "KF8G3fIiYPdp7H5o",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-tfmg"
+            },
+            "name": {
+                "modrinth": "Create: The Factory Must Grow"
+            },
+            "id": {
+                "modrinth": "USgVjXsk"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "tfmg-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/USgVjXsk/versions/uDi14nbt/tfmg-1.2.0.jar",
+                    "id": "uDi14nbt",
+                    "parent_id": "USgVjXsk",
+                    "hashes": {
+                        "sha512": "03f2ad28c78ef565ef203c5650280acb0b846d6105dc5c84b2e31187f501be5c59733ef3adb623fbaa32c3233d113d608905259128661ffab06b26b270b1b38c",
+                        "sha1": "b520f3687f60a69eb265ff5b9a16759b9e124103"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 4924243,
+                    "date_published": "2026-01-07T15:51:36.492971Z"
                 }
             ]
         },
@@ -1512,6 +2194,80 @@
                     "required_dependencies": [],
                     "size": 81843,
                     "date_published": "2024-10-29T00:27:27.215259Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zClraoPHdMC8GL00",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "curios"
+            },
+            "name": {
+                "modrinth": "Curios API"
+            },
+            "id": {
+                "modrinth": "vvuO3ImH"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "curios-neoforge-9.5.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1+1.21.1.jar",
+                    "id": "yohfFbgD",
+                    "parent_id": "vvuO3ImH",
+                    "hashes": {
+                        "sha512": "5981a267686b744e7e3c227f78cbcd5267c14ac6979a28e814695f4589273998563147207fef4a5cdb7cdbdc39797cd95d9e4abadb55869f18e02a38d0654ae5",
+                        "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4"
+                    },
+                    "required_dependencies": [],
+                    "size": 410690,
+                    "date_published": "2025-05-14T13:34:47.415840Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8f10PqX5lH0uSrDc",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "dcintegration"
+            },
+            "name": {
+                "modrinth": "Discord Integration"
+            },
+            "id": {
+                "modrinth": "rbJ7eS5V"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "dcintegration-neoforge-3.0.7-1.21.jar",
+                    "mc_versions": [
+                        "1.21"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/rbJ7eS5V/versions/Tvnxofx4/dcintegration-neoforge-3.0.7-1.21.jar",
+                    "id": "Tvnxofx4",
+                    "parent_id": "rbJ7eS5V",
+                    "hashes": {
+                        "sha512": "d3236f5f5e6403e1251aac74b8947672a9247125c67d6834e17e2a34c9b1f91e6a50657251423a6e75e466e043b30d7c47831572aac884631140d83f0b34bd04",
+                        "sha1": "8ca3d7391a2f5e63afa485819f588d8d35c7d36c"
+                    },
+                    "required_dependencies": [],
+                    "size": 16223287,
+                    "date_published": "2024-06-14T06:55:50.407852Z"
                 }
             ]
         },
@@ -1921,6 +2677,43 @@
             ]
         },
         {
+            "pakku_id": "SNILDxi1xw6GkAXL",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "geckolib"
+            },
+            "name": {
+                "modrinth": "Geckolib"
+            },
+            "id": {
+                "modrinth": "8BmcQJ2H"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "geckolib-neoforge-1.21.1-4.8.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/gFmrC8Ru/geckolib-neoforge-1.21.1-4.8.4.jar",
+                    "id": "gFmrC8Ru",
+                    "parent_id": "8BmcQJ2H",
+                    "hashes": {
+                        "sha512": "340d96149a04c57c09485f5b1c69e7f8ec3b68223c618e38b7d84c58f4280dcba3d0e9480b8fc79735d9ef5fd7da5fc8f3081d575bf4bbcd2c44b6dcf21d98c0",
+                        "sha1": "eb854c8ec53ef922a5f3877a1aa4c1ce1352e0ce"
+                    },
+                    "required_dependencies": [],
+                    "size": 622582,
+                    "date_published": "2026-03-03T20:06:25.035771Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "dj0bCDQer0GQDxXg",
             "type": "MOD",
             "side": "BOTH",
@@ -2304,6 +3097,81 @@
             ]
         },
         {
+            "pakku_id": "kKO5inxLvADFOTVB",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "luckperms"
+            },
+            "name": {
+                "modrinth": "LuckPerms"
+            },
+            "id": {
+                "modrinth": "Vebnzrzj"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "LuckPerms-NeoForge-5.4.140.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Vebnzrzj/versions/rnvg05YO/LuckPerms-NeoForge-5.4.140.jar",
+                    "id": "rnvg05YO",
+                    "parent_id": "Vebnzrzj",
+                    "hashes": {
+                        "sha512": "50d94c5a9d2635a445a2bd4f2f16c22172678b93315e3d91fa0829349ccd2b02944354af7baa3e6ae0c7bfe19f497b09af461f84aacc93900b59b75a07cd0290",
+                        "sha1": "bd368d3254d81120a8c287f79c0467478ad2d73e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1434674,
+                    "date_published": "2024-08-22T21:33:54.445681Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Prvx5400rGzdFNCB",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mcef"
+            },
+            "name": {
+                "modrinth": "MCEF (Minecraft Chromium Embedded Framework)"
+            },
+            "id": {
+                "modrinth": "TObQ0HxZ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "mcef-neoforge-2.1.6-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/TObQ0HxZ/versions/euXLgkSB/mcef-neoforge-2.1.6-1.21.1.jar",
+                    "id": "euXLgkSB",
+                    "parent_id": "TObQ0HxZ",
+                    "hashes": {
+                        "sha512": "8b45e271ca3b40dd714a2e6389ac460cff476b85b5cc7b57993f0cf0e0c0727d99768757c7ec0ab10600ccc75cb7e95f603c2b3fe77a9bb6c9492da4cb857ccb",
+                        "sha1": "efc74c3bf0784f2c75004440bb1ea4ed15e2385c"
+                    },
+                    "required_dependencies": [],
+                    "size": 215373,
+                    "date_published": "2024-10-20T17:17:10.359876Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "IBKHkiUzFUSHiFFI",
             "type": "MOD",
             "side": "SERVER",
@@ -2676,6 +3544,50 @@
                     "required_dependencies": [],
                     "size": 29865,
                     "date_published": "2024-10-01T04:13:07.380565Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "vwJEuTVrjqcteVWN",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "neoessentials"
+            },
+            "name": {
+                "modrinth": "NeoEssentials"
+            },
+            "id": {
+                "modrinth": "yiaK4SZh"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "neoessentials-1.0.2.5+build.1074.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/yiaK4SZh/versions/woCkFyUe/neoessentials-1.0.2.5+build.1074.jar",
+                    "id": "woCkFyUe",
+                    "parent_id": "yiaK4SZh",
+                    "hashes": {
+                        "sha512": "00da4ff054018383ed86d18e59833cf065588adff17fa245f79af963c7c0bc50b7ecb2ea59f7abdd575f10be352c766306afdf906593df8c8253e2a8a5fe9ea2",
+                        "sha1": "08490215e5bd19494c93a67deffa34a475de2afe"
+                    },
+                    "required_dependencies": [],
+                    "size": 1788473,
+                    "date_published": "2026-03-06T20:19:24.423137Z"
                 }
             ]
         },
@@ -3305,46 +4217,6 @@
                     "required_dependencies": [],
                     "size": 1162994,
                     "date_published": "2025-04-04T00:08:12.456557Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "so1TnuBDOv2lNJVF",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "sodium-dynamic-lights"
-            },
-            "name": {
-                "modrinth": "Sodium Dynamic Lights"
-            },
-            "id": {
-                "modrinth": "PxQSWIcD"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/XI0WLXdn/sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar",
-                    "id": "XI0WLXdn",
-                    "parent_id": "PxQSWIcD",
-                    "hashes": {
-                        "sha512": "ec19a81cf2dfde255990a457d8f6d7375df53cb94190dce71c4bfe5d5263f4862027ce4aa0af20cb11d56c7c031d5e149b3bdf95bec6343e5bd4552450b14c0a",
-                        "sha1": "02e9bc7ba28147cdf2d608ecf4f2c1eab34b4652"
-                    },
-                    "required_dependencies": [
-                        "AANobbMI",
-                        "Es5v4eyq"
-                    ],
-                    "size": 299353,
-                    "date_published": "2025-01-02T01:22:43.914842Z"
                 }
             ]
         },
