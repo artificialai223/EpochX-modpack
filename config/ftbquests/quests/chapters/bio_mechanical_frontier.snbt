@@ -1,0 +1,76 @@
+{
+	id: "0F1E2D3C4B5A6978"
+	group: ""
+	order_index: 0
+	filename: "bio_mechanical_frontier"
+	title: "Chapter 1: The Bio-Mechanical Frontier"
+	icon: "toughasnails:thermometer"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests:
+			rewards: [{
+				type: "item"
+				item: "minecraft:apple"
+				count: 4
+			}]
+		}
+		{
+			title: "Murky Waters"
+			x: -6.5d, y: 0.0d
+			dependencies: ["1000000000000001"]
+			id: "1000000000000002"
+			tasks: [{
+				type: "biome"
+				biome: "biomesoplenty:bayou"
+			}]
+			rewards: [{
+				type: "item"
+				item: "toughasnails:empty_leather_canteen"
+			}]
+		}
+		{
+			title: "Celestial Alignment"
+			x: -8.0d, y: 1.5d
+			dependencies: ["1000000000000001"]
+			id: "1000000000000005"
+			tasks: [{
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+			rewards: [{
+				type: "item"
+				item: "minecraft:clock"
+			}]
+		}
+		{
+			title: "Atmospheric Observation"
+			x: -6.5d, y: 1.5d
+			dependencies: ["1000000000000005"]
+			id: "1000000000000008"
+			tasks: [{
+				type: "observation"
+				to_observe: "sereneseasons:season_sensor"
+				timer: 0L
+			}]
+			rewards: [{
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			title: "The Master Chef"
+			x: -3.5d, y: 0.0d
+			dependencies: ["1000000000000002", "1000000000000008"]
+			id: "1000000000000018"
+			tasks: [{
+				type: "item"
+				item: "create_central_kitchen:blaze_stove"
+			}]
+			rewards: [{
+				type: "command"
+				command: "/effect give @p minecraft:saturation 600 1"
+				player_command: false
+			}]
+		}
+	]
+}

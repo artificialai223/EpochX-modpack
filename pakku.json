@@ -1,6 +1,6 @@
 {
     "name": "EpochX",
-    "version": "7.2.3",
+    "version": "7.2.4",
     "overrides": [
         "config",
         "mods/createbigcannons-5.11.3-dev-mc.1.21.1-build.283.jar",
@@ -20,6 +20,15 @@
             "side": "BOTH"
         },
         "irisshaders": {
+            "side": "CLIENT"
+        },
+        "terrablender-neoforge": {
+            "side": "BOTH"
+        },
+        "creativecore": {
+            "side": "BOTH"
+        },
+        "ambientsounds": {
             "side": "CLIENT"
         },
         "ferritecore": {

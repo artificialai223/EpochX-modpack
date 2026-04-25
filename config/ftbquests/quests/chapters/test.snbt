@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test"
+	group: ""
+	id: "0EB5892ACB4DE12B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "69F2E18FA6A7BED5"
+		rewards: [{
+			id: "2A3E1B9E05400F57"
+			item: {
+				count: 1
+				id: "minecraft:stripped_spruce_wood"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "306930C770CCA01F"
+			item: { count: 1, id: "minecraft:stripped_oak_log" }
+			type: "item"
+		}]
+		x: -18.0d
+		y: -4.0d
+	}]
+}
