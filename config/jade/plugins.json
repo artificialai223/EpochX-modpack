@@ -58,6 +58,14 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "tempad": {
+    "chronon": true,
+    "rudimentary": true,
+    "metronome": true,
+    "anchor": true,
+    "workstation": true,
+    "timedoor": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -78,6 +86,9 @@
   "jadeaddons.lootr": {
     "info": true
   },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -91,5 +102,10 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   }
 }

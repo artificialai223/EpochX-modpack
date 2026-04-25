@@ -73,7 +73,17 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "mysticalagradditions:infused_farmland": null,
+  "mysticalagriculture:crop": null,
+  "mysticalagriculture:inferium_crop": null,
+  "mysticalagriculture:infused_farmland": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
-  "supplementaries:safe": null
+  "supplementaries:safe": null,
+  "tempad:anchor": null,
+  "tempad:chronon": null,
+  "tempad:metronome": null,
+  "tempad:rudimentary": null,
+  "tempad:timedoor": null,
+  "tempad:workstation": null
 }
