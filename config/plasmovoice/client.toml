@@ -4,7 +4,7 @@ check_for_updates = true
 
 [activations.4aec07ba-d109-3345-9a0a-92022a116cd0]
 type = "VOICE"
-toggle = false
+toggle = true
 key_bindings = []
 
 [addons.pv-addon-soundphysics]
@@ -14,8 +14,8 @@ mic_reverb_volume = 1.0
 
 [voice]
 disabled = false
-microphone_disabled = false
-activation_threshold = -30.0
+microphone_disabled = true
+activation_threshold = -55.0
 input_device = ""
 output_device = "OpenAL Soft on SteelSeries Sonar - Chat (SteelSeries Sonar Virtual Audio Device)"
 disable_input_device = false
