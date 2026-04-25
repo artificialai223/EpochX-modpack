@@ -1,6 +1,6 @@
 {
     "name": "EpochX",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "overrides": [
         "config",
         "mods/createbigcannons-5.11.3-dev-mc.1.21.1-build.283.jar",

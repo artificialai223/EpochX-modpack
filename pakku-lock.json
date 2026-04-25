@@ -1324,6 +1324,43 @@
             ]
         },
         {
+            "pakku_id": "KImr7SXthvg6cvAq",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "create-train-parts"
+            },
+            "name": {
+                "modrinth": "Create Train Parts"
+            },
+            "id": {
+                "modrinth": "h0bu4oDk"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_train_parts-0.3.6-1.21.1-6.0.9-216.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/h0bu4oDk/versions/RCISS5uM/create_train_parts-0.3.6-1.21.1-6.0.9-216.jar",
+                    "id": "RCISS5uM",
+                    "parent_id": "h0bu4oDk",
+                    "hashes": {
+                        "sha512": "06dd3c21a2f83fa30455d55e91c18ad0171997968b3169548a608c9a4514c5ad504a9a185f7a79c3559c1ac315f7e0093a9088f6107b592f9fe0c3ec6cac0820",
+                        "sha1": "9375e43d82fed97ece089dc460c7c46bba351af3"
+                    },
+                    "required_dependencies": [],
+                    "size": 3531012,
+                    "date_published": "2026-02-02T16:37:34.571342Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2CIig5YloilIJGHv",
             "pakku_links": [
                 "RmAB4XXLSR6CmKEE"
@@ -2082,43 +2119,6 @@
                     ],
                     "size": 234343,
                     "date_published": "2026-02-16T23:48:01.577308Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "NrJf58wrVPIPMX3x",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "createbetterfps"
-            },
-            "name": {
-                "modrinth": "CreateBetterFps"
-            },
-            "id": {
-                "modrinth": "lMYIHZNH"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "createbetterfps-1.21.1-1.1.4.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/lMYIHZNH/versions/QWqEdWHy/createbetterfps-1.21.1-1.1.4.jar",
-                    "id": "QWqEdWHy",
-                    "parent_id": "lMYIHZNH",
-                    "hashes": {
-                        "sha512": "777cf4c533eba723baea1ef1fffcd2d47c8f4f8238ddc360973b41ae4946f7e733a24542a3691c4a1be2f41e55b07675f9ccfa633be186e72d11911ca67fa412",
-                        "sha1": "c594e20659b73a67bd0b0c2de45b29b78a2eb160"
-                    },
-                    "required_dependencies": [],
-                    "size": 26547,
-                    "date_published": "2026-04-19T16:25:33.013672Z"
                 }
             ]
         },
