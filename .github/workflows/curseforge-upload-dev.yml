@@ -12,43 +12,108 @@ jobs:
     permissions:
       contents: write
       discussions: write
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+        with:
+          fetch-depth: 0
+
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          java-version: '26'
+          java-version: '21'
           distribution: 'temurin'
-          
+
       - name: Get version from pakku.json
         id: version
         run: |
           VERSION=$(jq -r '.version' pakku.json)
           echo "version=$VERSION" >> $GITHUB_OUTPUT
-        
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+
+          # Find the previous release tag to diff against.
+          # Use rev-list --tags to skip the current tag (if HEAD is already tagged)
+          # and get the one before it.
+          PREV_TAG=$(git describe --tags --abbrev=0 --match='v*' \
+            "$(git rev-list --tags --skip=1 --max-count=1)" 2>/dev/null || echo "")
+
+          if [ -z "$PREV_TAG" ]; then
+            PREV_REF=$(git rev-list --max-parents=0 HEAD)
+          else
+            PREV_REF="$PREV_TAG"
+          fi
+
+          # Get list of changed files
+          CHANGED_FILES=$(git diff --name-only "$PREV_REF" HEAD 2>/dev/null || echo "")
+
+          # Build markdown changelog
+          {
+            echo "## EpochX $VERSION Changelog (Dev)"
+            echo ""
+            if [ -n "$PREV_TAG" ]; then
+              echo "Changes since \`$PREV_TAG\`:"
+            else
+              echo "Initial release — all files included:"
+            fi
+            echo ""
+            echo "### Changed Files"
+            echo ""
+            if [ -z "$CHANGED_FILES" ]; then
+              echo "- No files changed."
+            else
+              while IFS= read -r file; do
+                echo "- \`$file\`"
+              done <<< "$CHANGED_FILES"
+            fi
+          } > /tmp/changelog.md
+
+          cat /tmp/changelog.md
+
+          # Export multiline output
+          {
+            echo "changelog<<CHANGELOG_EOF"
+            cat /tmp/changelog.md
+            echo "CHANGELOG_EOF"
+          } >> "$GITHUB_OUTPUT"
+
       - name: Build Modpack (CurseForge Profile + Server Pack)
         run: |
           java -jar pakku.jar export
-      
+
       - name: List built files
         run: |
           ls -laR build/
 
-      - name: List built files
+      - name: Rename built files
         run: |
           mkdir -p build/releasefiles
           mv build/curseforge/EpochX-${{ steps.version.outputs.version }}.zip build/releasefiles/EpochX-${{ steps.version.outputs.version }}-client.zip
           mv build/serverpack/EpochX-${{ steps.version.outputs.version }}.zip build/releasefiles/EpochX-${{ steps.version.outputs.version }}-server.zip
-      
+
+      - name: Publish to CurseForge
+        uses: itsmeow/curseforge-upload@v2.1.2
+        with:
+          token: ${{ secrets.CURSEFORGE_TOKEN }}
+          project_id: ${{ secrets.CURSEFORGE_PROJECT_ID }}
+          game_endpoint: minecraft
+          file_path: build/releasefiles/EpochX-${{ steps.version.outputs.version }}-client.zip
+          changelog: ${{ steps.changelog.outputs.changelog }}
+          changelog_type: markdown
+          display_name: EpochX ${{ steps.version.outputs.version }} - dev
+          game_versions: "1.21.1,NeoForge"
+          release_type: alpha
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.version }}-dev
           name: EpochX ${{ steps.version.outputs.version }} - dev
-          body: "Automated release from GitHub Actions"
+          body: ${{ steps.changelog.outputs.changelog }}
           draft: false
           prerelease: true
           files: |
