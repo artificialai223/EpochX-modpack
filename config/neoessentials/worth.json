@@ -1,0 +1,4 @@
+{
+  "_comment": "Item sell prices. Keys are item registry IDs (e.g. minecraft:diamond).",
+  "worth": {}
+}

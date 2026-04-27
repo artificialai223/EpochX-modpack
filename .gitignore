@@ -18,3 +18,11 @@ servers.dat_old
 command_history.txt
 build
 minecraftinstance.json
+dynamic-resource-pack-cache
+crash-reports
+neoessentials
+.mixin.out
+imgui.ini
+ponders-watched.json
+midi_files
+DiscordIntegration-Data

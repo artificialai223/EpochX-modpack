@@ -1,118 +1,566 @@
 {
     "name": "EpochX",
-    "version": "7.2.0",
+    "version": "7.3.1",
     "overrides": [
         "config",
-        "datapacks",
-        "defaultconfigs",
-        "fancymenu_data",
-        "resourcepacks",
-        "shaderpacks"
+        "mods/createbigcannons-5.11.3-dev-mc.1.21.1-build.283.jar",
+        "fancymenu_data"
     ],
     "projects": {
-    "almostunified": { "side": "BOTH" },
-    "appleskin": { "side": "CLIENT" },
-    "aquaculture": { "side": "BOTH" },
-    "architectury-api": { "side": "BOTH" },
-    "attributefix": { "side": "BOTH" },
-    "better-compatibility-checker": { "side": "BOTH" },
-    "betterf3": { "side": "CLIENT" },
-    "biomes-o-plenty": { "side": "BOTH" },
-    "bookshelf": { "side": "BOTH" },
-    "chunky-pregenerator-forge": { "side": "BOTH" },
-    "chunky-border-forge": { "side": "BOTH" },
-    "cloth-config": { "side": "BOTH" },
-    "clumps": { "side": "BOTH" },
-    "collective": { "side": "BOTH" },
-    "complementary-unbound": { "side": "CLIENT" },
-    "configured": { "side": "CLIENT" },
-    "create": { "side": "BOTH" },
-    "create-aeronautics": { "side": "BOTH" },
-    "create-better-fps": { "side": "CLIENT" },
-    "create-big-cannons": { "side": "BOTH" },
-    "createaddition": { "side": "BOTH" },
-    "create-deco": { "side": "BOTH" },
-    "create-delivery-area": { "side": "BOTH" },
-    "create-railways-navigator": { "side": "BOTH" },
-    "slice-and-dice": { "side": "BOTH" },
-    "create-stuff-additions": { "side": "BOTH" },
-    "bellsandwhistles": { "side": "BOTH" },
-    "create-central-kitchen": { "side": "BOTH" },
-    "create-connected": { "side": "BOTH" },
-    "copycats": { "side": "BOTH" },
-    "create-o-plenty": { "side": "BOTH" },
-    "create-escalated": { "side": "BOTH" },
-    "numismatics": { "side": "BOTH" },
-    "create-threaded-trains": { "side": "BOTH" },
-    "create-ultimate-factory": { "side": "BOTH" },
-    "cristel-lib": { "side": "BOTH" },
-    "cubes-without-borders": { "side": "CLIENT" },
-    "cupboard": { "side": "BOTH" },
-    "drippy-early-loading-module": { "side": "CLIENT" },
-    "drippy-loading-screen": { "side": "CLIENT" },
-    "entityculling": { "side": "CLIENT" },
-    "euphoria-patches": { "side": "CLIENT" },
-    "fancy-toasts": { "side": "CLIENT" },
-    "fancymenu": { "side": "CLIENT" },
-    "farmers-delight": { "side": "BOTH" },
-    "farsight": { "side": "CLIENT" },
-    "fastsuite": { "side": "BOTH" },
-    "ferritecore": { "side": "BOTH" },
-    "fresh-animations": { "side": "CLIENT" },
-    "fresh-textures": { "side": "CLIENT" },
-    "fresh-textures-animation": { "side": "CLIENT" },
-    "glitchcore": { "side": "BOTH" },
-    "irisshaders": { "side": "CLIENT" },
-    "jade-addons": { "side": "BOTH" },
-    "jade": { "side": "BOTH" },
-    "jei": { "side": "BOTH" },
-    "konkrete": { "side": "BOTH" },
-    "kotlin-for-forge": { "side": "BOTH" },
-    "lithium": { "side": "BOTH" },
-    "lootr": { "side": "BOTH" },
-    "moogs-end-structures": { "side": "BOTH" },
-    "moogs-voyager-structures": { "side": "BOTH" },
-    "melody": { "side": "CLIENT" },
-    "moogs-structure-lib": { "side": "BOTH" },
-    "selene": { "side": "BOTH" },
-    "more-sweet-treats": { "side": "BOTH" },
-    "mouse-tweaks": { "side": "CLIENT" },
-    "necronomicon": { "side": "BOTH" },
-    "no-chat-reports": { "side": "BOTH" },
-    "not-enough-animations": { "side": "BOTH" },
-    "open-parties-and-claims": { "side": "BOTH" },
-    "open-parties-and-claims-pvp-support": { "side": "BOTH" },
-    "overflowing-bars": { "side": "CLIENT" },
-    "packet-fixer": { "side": "BOTH" },
-    "pick-up-notifier": { "side": "CLIENT" },
-    "placebo": { "side": "BOTH" },
-    "plasmo-voice": { "side": "BOTH" },
-    "polymorph": { "side": "BOTH" },
-    "prickle": { "side": "BOTH" },
-    "puzzles-lib": { "side": "BOTH" },
-    "ritchies-projectile-library": { "side": "BOTH" },
-    "serene-seasons": { "side": "BOTH" },
-    "smooth-chunk-save": { "side": "SERVER" },
-    "sign-plates-letters-symbols": { "side": "BOTH" },
-    "sodium": { "side": "CLIENT" },
-    "dynamiclights-reforged": { "side": "CLIENT" },
-    "sophisticated-backpacks": { "side": "BOTH" },
-    "sophisticated-core": { "side": "BOTH" },
-    "sound-physics-remastered": { "side": "BOTH" },
-    "supplementaries": { "side": "BOTH" },
-    "terrablender-neoforge": { "side": "BOTH" },
-    "terralith": { "side": "BOTH" },
-    "tool-belt": { "side": "BOTH" },
-    "tough-as-nails": { "side": "BOTH" },
-    "worldedit": { "side": "BOTH" },
-    "worldedit-cui-forge": { "side": "CLIENT" },
-    "xaero-train-map": { "side": "CLIENT" },
-    "xaeros-minimap": { "side": "CLIENT" },
-    "xaeros-world-map": { "side": "CLIENT" },
-    "big-cannons-aeronautics-fix": { "side": "BOTH" },
-    "entity-model-features": { "side": "CLIENT" },
-    "entity-texture-features-fabric": { "side": "CLIENT" },
-    "pv-addon-soundphysics": { "side": "BOTH" },
-    "spark": { "side": "BOTH" }
+        "steam-n-rails-neoforge": {
+            "side": "BOTH"
+        },
+        "burnt": {
+            "side": "BOTH"
+        },
+        "coroutil": {
+            "side": "BOTH"
+        },
+        "distant-horizons": {
+            "side": "BOTH"
+        },
+        "ritchies-projectile-library": {
+            "side": "BOTH"
+        },
+        "open-parties-and-claims-pvp-support": {
+            "side": "BOTH"
+        },
+        "moogs-end-structures": {
+            "side": "BOTH"
+        },
+        "what-are-they-up-to": {
+            "side": "BOTH"
+        },
+        "vista": {
+            "side": "BOTH"
+        },
+        "sophisticated-storage-create-integration": {
+            "side": "BOTH"
+        },
+        "sophisticated-storage": {
+            "side": "BOTH"
+        },
+        "searchables": {
+            "side": "BOTH"
+        },
+        "rhino": {
+            "side": "BOTH"
+        },
+        "pipe-connector": {
+            "side": "BOTH"
+        },
+        "multi-piston": {
+            "side": "BOTH"
+        },
+        "lootjs": {
+            "side": "BOTH"
+        },
+        "irisshaders": {
+            "side": "CLIENT"
+        },
+        "kubejs-create": {
+            "side": "BOTH"
+        },
+        "kubejs-ars-nouveau": {
+            "side": "BOTH"
+        },
+        "kubejs": {
+            "side": "BOTH"
+        },
+        "fast-leaf-decay": {
+            "side": "BOTH"
+        },
+        "terrablender-neoforge": {
+            "side": "BOTH"
+        },
+        "ftb-xmod-compat": {
+            "side": "BOTH"
+        },
+        "ftb-ultimine-forge": {
+            "side": "BOTH"
+        },
+        "domum-ornamentum": {
+            "side": "BOTH"
+        },
+        "create-cold-sweat": {
+            "side": "BOTH"
+        },
+        "corpse": {
+            "side": "BOTH"
+        },
+        "coroutils": {
+            "side": "BOTH"
+        },
+        "controlling": {
+            "side": "BOTH"
+        },
+        "cold-sweat": {
+            "side": "BOTH"
+        },
+        "cold-sweat-and-aeronautics": {
+            "side": "BOTH"
+        },
+        "cbcms": {
+            "side": "BOTH"
+        },
+        "burnt-cold-sweat-compat": {
+            "side": "BOTH"
+        },
+        "burn": {
+            "side": "BOTH"
+        },
+        "blockui": {
+            "side": "BOTH"
+        },
+        "artifacts": {
+            "side": "BOTH"
+        },
+        "creativecore": {
+            "side": "BOTH"
+        },
+        "ambientsounds": {
+            "side": "CLIENT"
+        },
+        "ferritecore": {
+            "side": "BOTH"
+        },
+        "ftb-teams-forge": {
+            "side": "BOTH"
+        },
+        "ftb-quests-forge": {
+            "side": "BOTH"
+        },
+        "create-industry": {
+            "side": "BOTH"
+        },
+        "create-escalated": {
+            "side": "BOTH"
+        },
+        "create-o-plenty": {
+            "side": "BOTH"
+        },
+        "create-broken-bad-rebroken": {
+            "side": "BOTH"
+        },
+        "create-factory-logistics": {
+            "side": "BOTH"
+        },
+        "create-delivery-area": {
+            "side": "BOTH"
+        },
+        "complementary-unbound": {
+            "side": "CLIENT"
+        },
+        "chunky-border-forge": {
+            "side": "SERVER"
+        },
+        "chunky-pregenerator-forge": {
+            "side": "SERVER"
+        },
+        "bookshelf": {
+            "side": "BOTH"
+        },
+        "tempad": {
+            "side": "BOTH"
+        },
+        "resourceful-lib": {
+            "side": "BOTH"
+        },
+        "resourceful-config": {
+            "side": "BOTH"
+        },
+        "mystical-agriculture": {
+            "side": "BOTH"
+        },
+        "mystical-agradditions": {
+            "side": "BOTH"
+        },
+        "farsight": {
+            "side": "CLIENT"
+        },
+        "cupboard": {
+            "side": "BOTH"
+        },
+        "cucumber": {
+            "side": "BOTH"
+        },
+        "create-winery": {
+            "side": "BOTH"
+        },
+        "create-tracks": {
+            "side": "BOTH"
+        },
+        "create-integrated-farming": {
+            "side": "BOTH"
+        },
+        "ftb-essentials": {
+            "side": "BOTH"
+        },
+        "almostunified": {
+            "side": "BOTH"
+        },
+        "ftb-library-forge": {
+            "side": "BOTH"
+        },
+        "jade-addons": {
+            "side": "BOTH"
+        },
+        "selene": {
+            "side": "BOTH"
+        },
+        "almost-unified": {
+            "side": "SERVER"
+        },
+        "appleskin": {
+            "side": "BOTH"
+        },
+        "aquaculture": {
+            "side": "BOTH"
+        },
+        "architectury-api": {
+            "side": "BOTH"
+        },
+        "ars-nouveau": {
+            "side": "BOTH"
+        },
+        "attributefix": {
+            "side": "BOTH"
+        },
+        "better-compatibility-checker": {
+            "side": "BOTH"
+        },
+        "betterdays": {
+            "side": "BOTH"
+        },
+        "betterf3": {
+            "side": "CLIENT"
+        },
+        "biomes-o-plenty": {
+            "side": "BOTH"
+        },
+        "bookshelf-lib": {
+            "side": "BOTH"
+        },
+        "chunky": {
+            "side": "BOTH"
+        },
+        "chunkyborder": {
+            "side": "BOTH"
+        },
+        "cloth-config": {
+            "side": "BOTH"
+        },
+        "clumps": {
+            "side": "BOTH"
+        },
+        "collective": {
+            "side": "BOTH"
+        },
+        "create": {
+            "side": "SERVER"
+        },
+        "create-aeronautics": {
+            "side": "BOTH"
+        },
+        "create-compressed": {
+            "side": "BOTH"
+        },
+        "create-confectionery": {
+            "side": "BOTH"
+        },
+        "createaddition": {
+            "side": "BOTH"
+        },
+        "create-deco": {
+            "side": "BOTH"
+        },
+        "create-encased": {
+            "side": "BOTH"
+        },
+        "create_factory_logistics": {
+            "side": "BOTH"
+        },
+        "create-more-parallel-pipes": {
+            "side": "BOTH"
+        },
+        "createnuclear": {
+            "side": "BOTH"
+        },
+        "create-ore-excavation": {
+            "side": "BOTH"
+        },
+        "create-railways-navigator": {
+            "side": "BOTH"
+        },
+        "create-ratatouille": {
+            "side": "BOTH"
+        },
+        "slice-and-dice": {
+            "side": "BOTH"
+        },
+        "create-stuff-additions": {
+            "side": "BOTH"
+        },
+        "create-train-parts": {
+            "side": "BOTH"
+        },
+        "create-trainutilities": {
+            "side": "BOTH"
+        },
+        "bellsandwhistles": {
+            "side": "BOTH"
+        },
+        "create-broken-bad-fabric": {
+            "side": "BOTH"
+        },
+        "create-central-kitchen": {
+            "side": "BOTH"
+        },
+        "create-connected": {
+            "side": "BOTH"
+        },
+        "copycats": {
+            "side": "BOTH"
+        },
+        "createoplenty": {
+            "side": "BOTH"
+        },
+        "create-design-n-decor": {
+            "side": "BOTH"
+        },
+        "create-diesel-generators": {
+            "side": "BOTH"
+        },
+        "create-dragons-plus": {
+            "side": "BOTH"
+        },
+        "create-enchantment-industry": {
+            "side": "BOTH"
+        },
+        "escalated": {
+            "side": "BOTH"
+        },
+        "interiors": {
+            "side": "BOTH"
+        },
+        "create-let-the-adventure-begin": {
+            "side": "SERVER"
+        },
+        "numismatics": {
+            "side": "BOTH"
+        },
+        "create-sound-of-steam": {
+            "side": "BOTH"
+        },
+        "create-tfmg": {
+            "side": "BOTH"
+        },
+        "create-threaded-trains": {
+            "side": "SERVER"
+        },
+        "create-ultimate-factory": {
+            "side": "BOTH"
+        },
+        "cristel-lib": {
+            "side": "SERVER"
+        },
+        "cubes-without-borders": {
+            "side": "CLIENT"
+        },
+        "curios": {
+            "side": "BOTH"
+        },
+        "dcintegration": {
+            "side": "SERVER"
+        },
+        "dragonlib": {
+            "side": "BOTH"
+        },
+        "drippy-early-loading-module": {
+            "side": "CLIENT"
+        },
+        "drippy-loading-screen": {
+            "side": "CLIENT"
+        },
+        "entityculling": {
+            "side": "CLIENT"
+        },
+        "euphoria-patches": {
+            "side": "CLIENT"
+        },
+        "fancy-toasts": {
+            "side": "CLIENT"
+        },
+        "fancymenu": {
+            "side": "CLIENT"
+        },
+        "farmers-delight": {
+            "side": "BOTH"
+        },
+        "ferrite-core": {
+            "side": "BOTH"
+        },
+        "gabous-libs": {
+            "side": "BOTH"
+        },
+        "geckolib": {
+            "side": "BOTH"
+        },
+        "glitchcore": {
+            "side": "BOTH"
+        },
+        "iris": {
+            "side": "CLIENT"
+        },
+        "jade-addons-forge": {
+            "side": "BOTH"
+        },
+        "jade": {
+            "side": "BOTH"
+        },
+        "jei": {
+            "side": "BOTH"
+        },
+        "konkrete": {
+            "side": "BOTH"
+        },
+        "kotlin-for-forge": {
+            "side": "BOTH"
+        },
+        "lithium": {
+            "side": "BOTH"
+        },
+        "lithostitched": {
+            "side": "SERVER"
+        },
+        "lootr": {
+            "side": "BOTH"
+        },
+        "luckperms": {
+            "side": "SERVER"
+        },
+        "mcef": {
+            "side": "CLIENT"
+        },
+        "mes-moogs-end-structures": {
+            "side": "SERVER"
+        },
+        "moogs-voyager-structures": {
+            "side": "SERVER"
+        },
+        "melody": {
+            "side": "CLIENT"
+        },
+        "modernfix": {
+            "side": "BOTH"
+        },
+        "moogs-structure-lib": {
+            "side": "SERVER"
+        },
+        "moonlight": {
+            "side": "BOTH"
+        },
+        "more-sweet-treats": {
+            "side": "BOTH"
+        },
+        "mouse-tweaks": {
+            "side": "CLIENT"
+        },
+        "necronomicon": {
+            "side": "BOTH"
+        },
+        "neoessentials": {
+            "side": "SERVER"
+        },
+        "no-chat-reports": {
+            "side": "BOTH"
+        },
+        "not-enough-animations": {
+            "side": "CLIENT"
+        },
+        "open-parties-and-claims": {
+            "side": "SERVER"
+        },
+        "opacpvp": {
+            "side": "SERVER"
+        },
+        "overflowing-bars": {
+            "side": "CLIENT"
+        },
+        "packet-fixer": {
+            "side": "BOTH"
+        },
+        "pick-up-notifier": {
+            "side": "CLIENT"
+        },
+        "plasmo-voice": {
+            "side": "BOTH"
+        },
+        "polymorph": {
+            "side": "BOTH"
+        },
+        "prickle": {
+            "side": "BOTH"
+        },
+        "puzzles-lib": {
+            "side": "BOTH"
+        },
+        "rpl": {
+            "side": "BOTH"
+        },
+        "sable": {
+            "side": "BOTH"
+        },
+        "serene-seasons": {
+            "side": "BOTH"
+        },
+        "serene-seasons-plus": {
+            "side": "BOTH"
+        },
+        "sodium": {
+            "side": "CLIENT"
+        },
+        "sophisticated-backpacks": {
+            "side": "BOTH"
+        },
+        "sophisticated-core": {
+            "side": "BOTH"
+        },
+        "sound-physics-remastered": {
+            "side": "CLIENT"
+        },
+        "supplementaries": {
+            "side": "BOTH"
+        },
+        "tectonic": {
+            "side": "SERVER"
+        },
+        "terrablender": {
+            "side": "BOTH"
+        },
+        "terralith": {
+            "side": "SERVER"
+        },
+        "tough-as-nails": {
+            "side": "BOTH"
+        },
+        "worldedit": {
+            "side": "SERVER"
+        },
+        "xaero-train-map": {
+            "side": "CLIENT"
+        },
+        "xaeros-minimap": {
+            "side": "CLIENT"
+        },
+        "xaeros-world-map": {
+            "side": "CLIENT"
+        },
+        "pv-addon-soundphysics": {
+            "side": "CLIENT"
+        },
+        "spark": {
+            "side": "BOTH"
+        }
     }
 }

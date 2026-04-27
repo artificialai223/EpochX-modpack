@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "117aaabc-c16d-4230-9929-6465cb918287",
+      "username": "admin",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "email": "admin@localhost",
+      "role": "ADMIN",
+      "enabled": true,
+      "createdAt": 1777063404062,
+      "requiresPasswordChange": false,
+      "isTempPassword": false,
+      "permissions": []
+    }
+  ]
+}
