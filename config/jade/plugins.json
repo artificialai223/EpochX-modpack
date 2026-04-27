@@ -86,8 +86,8 @@
   "jadeaddons.lootr": {
     "info": true
   },
-  "mysticalagradditions": {
-    "infused_farmland": true
+  "ftbquests": {
+    "barrier": true
   },
   "supplementaries": {
     "hat_stand": true
@@ -103,9 +103,7 @@
     "block_properties": false,
     "mod_name": true
   },
-  "mysticalagriculture": {
-    "infused_farmland": true,
-    "crop": true,
-    "inferium_crop": true
+  "corpse": {
+    "corpse": true
   }
 }

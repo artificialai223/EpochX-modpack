@@ -1,6 +1,6 @@
 {
     "name": "EpochX",
-    "version": "7.2.4",
+    "version": "7.3.1",
     "overrides": [
         "config",
         "mods/createbigcannons-5.11.3-dev-mc.1.21.1-build.283.jar",
@@ -19,10 +19,91 @@
         "moogs-end-structures": {
             "side": "BOTH"
         },
+        "what-are-they-up-to": {
+            "side": "BOTH"
+        },
+        "vista": {
+            "side": "BOTH"
+        },
+        "sophisticated-storage-create-integration": {
+            "side": "BOTH"
+        },
+        "sophisticated-storage": {
+            "side": "BOTH"
+        },
+        "searchables": {
+            "side": "BOTH"
+        },
+        "rhino": {
+            "side": "BOTH"
+        },
+        "pipe-connector": {
+            "side": "BOTH"
+        },
+        "multi-piston": {
+            "side": "BOTH"
+        },
+        "lootjs": {
+            "side": "BOTH"
+        },
         "irisshaders": {
             "side": "CLIENT"
         },
+        "kubejs-create": {
+            "side": "BOTH"
+        },
+        "kubejs-ars-nouveau": {
+            "side": "BOTH"
+        },
+        "kubejs": {
+            "side": "BOTH"
+        },
+        "fast-leaf-decay": {
+            "side": "BOTH"
+        },
         "terrablender-neoforge": {
+            "side": "BOTH"
+        },
+        "ftb-xmod-compat": {
+            "side": "BOTH"
+        },
+        "ftb-ultimine-forge": {
+            "side": "BOTH"
+        },
+        "domum-ornamentum": {
+            "side": "BOTH"
+        },
+        "create-cold-sweat": {
+            "side": "BOTH"
+        },
+        "corpse": {
+            "side": "BOTH"
+        },
+        "coroutils": {
+            "side": "BOTH"
+        },
+        "controlling": {
+            "side": "BOTH"
+        },
+        "cold-sweat": {
+            "side": "BOTH"
+        },
+        "cold-sweat-and-aeronautics": {
+            "side": "BOTH"
+        },
+        "cbcms": {
+            "side": "BOTH"
+        },
+        "burnt-cold-sweat-compat": {
+            "side": "BOTH"
+        },
+        "burn": {
+            "side": "BOTH"
+        },
+        "blockui": {
+            "side": "BOTH"
+        },
+        "artifacts": {
             "side": "BOTH"
         },
         "creativecore": {

@@ -56,7 +56,7 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = d7675112-0ebb-4ff7-9129-88acb2b5a5c1-1776867463016
-  [executable_action_instance:77a316f7-0f14-4e3f-a5f5-238935a90080-1776867636168][action_type:joinserver] = 217.155.42.84:9003
+  [executable_action_instance:77a316f7-0f14-4e3f-a5f5-238935a90080-1776867636168][action_type:joinserver] = tungsten.dathost.net:17307
   [executable_block:d7675112-0ebb-4ff7-9129-88acb2b5a5c1-1776867463016][type:generic] = [executables:77a316f7-0f14-4e3f-a5f5-238935a90080-1776867636168;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
